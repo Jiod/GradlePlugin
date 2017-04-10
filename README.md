@@ -8,8 +8,10 @@ Gradle插件定义示例项目
 1、创键一个model（**buildSrc**）记住一定是buildSrc，这样gradle才能找到它
 
 2、删除buildSrc中的一些文件和目录如下图
+
    ![buildSrc](http://ww4.sinaimg.cn/large/006HJ39wgy1fehyam34b7j30cf06ht8x.jpg
 )
+
 
 3、建立一个Java包，然后写一个类实现Plugin<Project>接口,只有一个抽象方法
 
